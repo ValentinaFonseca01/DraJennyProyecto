@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Dra Jenny Sarmiento</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="Imagenes/Logo v2 Dra Jenny.svg" alt="LogoV2">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Sobre mi.html">Sobre mí</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Opiniones.html">Opiniones</a></li>
+                <li><a href="Contactanos.html" class="contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <img src="Imagenes/Banner.png" alt="Banner">
+    </div>
+</section>
+
+<!-- Clientes Satisfechos -->
+<section class="testimonials">
+  <h2>Clientes Satisfechos</h2>
+
+  <!-- Carrusel -->
+  <div class="carrusel">
+    <div class="carrusel-inner">
+      <!-- Slide 1 -->
+      <div class="slide">
+        <div class="testimonial-card">
+          <h3>Mariana G.</h3>
+          <p>"Estoy encantada con los resultados. La Dra. Jenny fue muy profesional y me explicó cada paso del procedimiento. ¡Mi rostro luce más fresco y natural, superó mis expectativas!"</p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+        <div class="testimonial-card">
+          <h3>Carlos R.</h3>
+          <p>"Desde la primera cita me sentí en buenas manos. Los resultados fueron sutiles pero impactantes, manteniendo mi expresión natural. ¡Definitivamente la recomiendo!"</p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+        <div class="testimonial-card">
+          <h3>Andrea P.</h3>
+          <p>"Gracias a la Dra. Jenny, mi piel luce más luminosa y rejuvenecida. Me dio confianza y seguridad durante todo el proceso. ¡Volveré sin dudarlo!"</p>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide">
+        <div class="testimonial-card">
+          <h3>Gabriela M.</h3>
+          <p>"Tenía algo de dudas al inicio pero la Dra fue muy amable y su atención me dio mucha confianza. Amé el resultado final."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controles -->
+  <div class="controles">
+    <button id="prev">←</button>
+    <div class="indicadores">
+      <span class="punto activo"></span>
+      <span class="punto"></span>
+    </div>
+    <button id="next">→</button>
+  </div>
+</section>
+
+
+
+
+<!-- SOBRE MÍ -->
+<section class="sobre-mi">
+    <div class="sobre-mi-img">
+        <img src="Imagenes/Dra Jenny sobre mi.png" alt="Dr Jenny sobre mi">
+    </div>
+        <div class="sobre-mi-texto">
+            <h2>Sobre la Dra. Jenny</h2>
+            <p>Nacida en Colombia en el año 2024, la marca surge con el propósito de
+                ofrecer servicios de medicina estética con un enfoque integral, priorizando el
+                bienestar, la seguridad y la confianza de los pacientes. Inspirada en la
+                belleza natural y la armonía, la marca busca diferenciarse por su atención
+                personalizada y el uso de tecnología avanzada.</p>
+                <a href="Sobre mi.html" class="btn-sobre-mi">Conoce más sobre Mí</a>
+        </div>
+</section>
+
+<!-- Reasons -->
+<section class="reasons">
+    <h2>¿Por qué agendar cita con nosotros?</h2>
+    <div class="reasons-grid">
+      <div class="reason-card">Atención personalizada</div>
+      <div class="reason-card dark">Experiencia profesional</div>
+      <div class="reason-card">Técnicas avanzadas</div>
+      <div class="reason-card dark">Resultados naturales</div>
+      <div class="reason-card">Seguridad garantizada</div>
+      <div class="reason-card dark">Acompañamiento integral</div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stats-container">
+      <div class="stats-cards">
+        <div class="stat-card"><h2>15</h2><p><span></span>Clientes nuevos</p></div>
+        <div class="stat-card"><h2>30</h2><p><span></span>Clientes satisfechos</p></div>
+        <div class="stat-card"><h2>3</h2><p><span></span>Reconocimientos</p></div>
+        <div class="stat-card"><h2>30</h2><p><span></span>Vidas cambiadas</p></div>
+      </div>
+      <div class="stats-text">
+        <h2>El mejor servicio</h2>
+        <p>
+          Cada paciente recibe un tratamiento diseñado según sus necesidades individuales,
+          asegurando resultados naturales y satisfactorios.
+        </p>
+        <a href="Contactanos.html" class="btn-stats">Contáctanos</a>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- CONSULTAS -->
+<section class="banner-consulta">
+    <div class="contenido-banner">
+      <div class="texto-banner">
+        <h2>Consultas profesionales</h2>
+        <p>¿Qué esperas para darle un cambio a tu belleza?</p>
+      </div>
+      <a href="Contactanos.html" class="btn-banner">Agenda tu consulta</a>
+    </div>
+  </section>
+  
+
+<!-- SERVICIOS -->
+<section id="algunos-servicios">
+    <h2>Algunos de nuestros servicios</h2>
+    <div class="contenedor-servicios">
+  
+      <!-- Menú de Categorías -->
+      <div class="menu-categorias">
+        <button class="categoria-btn active" data-category="todos">Todos</button>
+        <button class="categoria-btn" data-category="armonizacion">Armonización Facial</button>
+        <button class="categoria-btn" data-category="microblading">Microblading y Micropigmentación</button>
+        <button class="categoria-btn" data-category="alopecia">Manejo Alopecia</button>
+      </div>
+       <!-- Este es lo que pone los botones abajo -->
+      <div class="contenido-servicios">
+      <!-- Contenedor de Servicios -->
+      <div class="servicios-grid">
+        
+        <!-- Servicios Armonización Facial -->
+        <div class="servicio" data-category="armonizacion">
+          <img src="ruta-de-la-imagen.jpg" alt="Toxina Botulínica">
+          <h3>Toxina Botulínica</h3>
+        </div>
+        <div class="servicio" data-category="armonizacion">
+          <img src="ruta-de-la-imagen.jpg" alt="Ácido hialurónico">
+          <h3>Ácido hialurónico</h3>
+        </div>
+        <div class="servicio" data-category="armonizacion">
+          <img src="ruta-de-la-imagen.jpg" alt="Plasma rico en plaquetas">
+          <h3>Plasma rico en plaquetas</h3>
+        </div>
+        <div class="servicio" data-category="armonizacion">
+          <img src="ruta-de-la-imagen.jpg" alt="Hidratación facial inyectable">
+          <h3>Hidratación facial inyectable</h3>
+        </div>
+        <div class="servicio" data-category="armonizacion">
+          <img src="ruta-de-la-imagen.jpg" alt="Skin care">
+          <h3>Skin care</h3>
+        </div>
+  
+        <!-- Servicios Microblading y Micropigmentación -->
+        <div class="servicio" data-category="microblading">
+            <img src="ruta-de-la-imagen.jpg" alt="Camuflaje de Cicatrices">
+          <h3>Camuflaje de Cicatrices</h3>
+        </div>
+        <div class="servicio" data-category="microblading">
+            <img src="ruta-de-la-imagen.jpg" alt="Areolas Realistas">
+          <h3>Areolas Realistas</h3>
+        </div>
+        <div class="servicio" data-category="microblading">
+            <img src="ruta-de-la-imagen.jpg" alt="Cejas">
+          <h3>Cejas</h3>
+        </div>
+        <div class="servicio" data-category="microblading">
+            <img src="ruta-de-la-imagen.jpg" alt="Labios">
+          <h3>Labios</h3>
+        </div>
+        <div class="servicio" data-category="microblading">
+            <img src="ruta-de-la-imagen.jpg" alt="Estrías">
+          <h3>Estrías</h3>
+        </div>
+        <div class="servicio" data-category="microblading">
+            <img src="ruta-de-la-imagen.jpg" alt="Vitiligo">
+          <h3>Vitiligo</h3>
+        </div>
+  
+        <!-- Servicios Manejo Alopecia -->
+        <div class="servicio" data-category="alopecia">
+            <img src="ruta-de-la-imagen.jpg" alt="Mesoterapia Capilar">
+          <h3>Mesoterapia Capilar</h3>
+        </div>
+        <div class="servicio" data-category="alopecia">
+            <img src="ruta-de-la-imagen.jpg" alt="Plasma rico en plaquetas">
+          <h3>Plasma rico en plaquetas</h3>
+        </div>
+        <div class="servicio" data-category="alopecia">
+            <img src="ruta-de-la-imagen.jpg" alt="Tratamiento Farmacológico">
+          <h3>Tratamiento Farmacológico</h3>
+        </div>
+      </div>
+      <!-- Navegacion de servicios -->
+      <div class="navegacion-completa">
+      <div class="navegacion-servicios">
+        <button id="prev-btn">←</button>
+        <div id="pagination-dots" class="pagination-dots"></div>
+        <button id="next-btn">→</button>
+      </div>
+      
+    </div>
+  </section>
+  
+  <!-- CONTACTO -->
+  <section class="contacto">
+    <h2>¿Te interesa? Contáctanos</h2>
+    <form class="formulario">
+        <input type="text" placeholder="Nombre*" required>
+        <input type="email" placeholder="Email*" required>
+        <input type="text" placeholder="Servicio" required>
+        <input type="text" placeholder="Celular" required>
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-content">
+        <div>
+            <p><strong>Dirección:</strong> Stemwell Health</p>
+            <p><strong>Teléfono:</strong> +57 3189004216</p>
+            <p><strong>Email:</strong> majem143106@gmail.com</p>
+        </div>
+        <div>
+            <p><strong>Promociones:</strong></p>
+            <input type="email" placeholder="Email">
+            <button>Suscribirte</button>
+        </div>
+        <div class="redes">
+            <p>Encuéntranos en:</p>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+    </div>
+    <p class="copy">© Dra. Jenny Sarmiento 2025. Todos los derechos reservados. | Términos y Condiciones</p>
+</footer>
+<script src="Js/carrusel-clientes.js"></script>
+<script src="Js/servicios.js"></script>
+</body>
+</html>
